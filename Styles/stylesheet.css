@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #000;
+}
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,.5)), url(../Images/hero_img.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	scroll-margin: 300px;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	border-radius: 15px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	border-radius: 15px;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+	border-radius: 15px;
+}
+	
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	margin-top: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size:  70px;
+}
+
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.menu{
+	align-items: left;
+}
+.subhead{
+	margin-top: 50px;
+	color:#fff;
+	
+}
+.subhead h2{
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
+.subhead p{
+	margin-left: 30px;
+	margin-right: 30px;
+	justify-content: center;
+
+}
+/* .social li 
+{
+	display: inline-block; 
+}
+.social li a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background: #ffffff;
+	border-radius: 50%;
+	color: #ffffff;
+} */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	background: #fff;
+	color: black;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  /* .subhead{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+   */
+
+
+   .subhead > .Location{
+	 display: flex;
+	 justify-content: center;
+   }
+
+
+.Course,.insti,.year{
+	margin: 25px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.insti,.year{
+	margin-left: 85px;
+}
+.address{
+	margin-left: 40px;
+}
+.socailicon{
+	display: flex;
+	justify-content: center;
+	/* flex-direction: column; */
+	margin-bottom: 30px;
+}
